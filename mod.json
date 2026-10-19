@@ -1,0 +1,31 @@
+{
+  "geode": "5.0.0",
+  "gd": {
+    "win": "2.2081"
+  },
+  "id": "yourname.input-buffer",
+  "name": "Input Buffer (Testing)",
+  "version": "v1.0.0",
+  "developer": "yourname",
+  "description": "Buffers your clicks by extra frames for testing your own levels locally.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Enabled",
+      "default": true
+    },
+    "extra-frames": {
+      "type": "int",
+      "name": "Extra Frames",
+      "description": "How many physics frames a click stays held after release.",
+      "default": 6,
+      "min": 0,
+      "max": 30,
+      "control": {
+        "slider": true,
+        "arrows": true,
+        "arrow-step": 1
+      }
+    }
+  }
+}
