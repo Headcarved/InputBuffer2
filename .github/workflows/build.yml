@@ -14,4 +14,3 @@ jobs:
           combine: true
           sdk: nightly
           cli: nightly
-          target: Geode
