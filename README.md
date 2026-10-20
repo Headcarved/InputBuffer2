@@ -1,6 +1,7 @@
 Recently, there has been some discussion about top Geometry Dash players using an "input buffer" (or something similar). So, I decided to create an input buffer and release it to the public. Since the mod that was always being talked about isn't publicly available, I decided to create one myself and share it with you.
 
 Q: What exactly does it do?
+
 A: Geometry Dash runs its physics at 240 steps per second, so a "frame" here means one physics step — roughly 4 milliseconds. Your click is normally honoured exactly as long as you hold it. This mod holds it longer than you did.
 
 With 6 extra frames, a click that lasted 1 frame becomes 7. Short taps get extended, so a tap that lands slightly too early or too late still registers.
