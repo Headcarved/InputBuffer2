@@ -20,5 +20,4 @@ Changes apply right away — no restart.
 Worth knowing
 It works in normal play and editor playtest, because both run on the same layer the mod hooks.
 6 frames is ~25 ms. If the level still feels hard, try 15–30 before assuming it isn't working.
-A level you beat or verify with this on doesn't count. Turn it off before you verify or upload anything, since the game only sees the inputs the mod forwarded, not the ones you actually made.
 If you want to feel the difference immediately, put it on a level you can already beat and try tapping deliberately early and late to see how much it forgives.
