@@ -2,12 +2,14 @@ name: Build Geode Mod
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
 jobs:
   build:
-  env:
+    runs-on: windows-latest
+    env:
       CC: cl
       CXX: cl
-    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - name: Build the mod
