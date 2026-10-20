@@ -35,8 +35,8 @@ class $modify(BufferedGL, GJBaseGameLayer) {
         GJBaseGameLayer::handleButton(false, button, isP1);
     }
 
-    void processCommands(float dt) {
-        GJBaseGameLayer::processCommands(dt);
+    void processCommands(float dt, bool isHalfTick, bool isLastTick) {
+        GJBaseGameLayer::processCommands(dt, isHalfTick, isLastTick);
         for (int i = 0; i < 2; i++) {
             auto& s = m_fields->p[i];
             if (!s.held) continue;
